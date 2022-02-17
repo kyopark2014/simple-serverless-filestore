@@ -1,8 +1,6 @@
 # Simple File Sharing
 
-본 문서에서는 Serverless architecture 기반의 파일공유 서비스를 소개하고자 합니다. 간단하게 구현하여 사용할 수 있도록, 멀티 Account를 고려하지 않고, 고정비용을 줄이기 위하여 데이터베이스도 사용하지 않습니다. 
-
-전체적인 Serverless Architecture는 아래와 같습니다.
+본 문서에서는 Serverless architecture 기반의 파일공유 서비스를 소개하고자 합니다. 전체적인 Serverless Architecture는 아래와 같습니다.
 
 <img width="764" alt="image" src="https://user-images.githubusercontent.com/52392004/154503381-d893c830-346c-4968-bb73-73ab7cf48ff4.png">
 
@@ -11,6 +9,9 @@
 1) 사용자가 업로드한 컨텐츠는 RESTful API를 통해 API Gateway를 통해 전송되는데 이때 보안을 위해 https를 이용해 전달됩니다. 이후, Lambda에 전달된 event에서 파일을 추출해서 S3에 저장하게 됩니다. 
 2) 두번째 Lambda는 S3에 Put event notification을 받아서 trigger 되는데, CloudFront와 S3가 연결하는 작업을 하게 되며, 이때 생성된 파일 다운로드 URL을 SNS에 전달 합니다. 
 3) SNS는 Lambda로 부터 전달된 URL로 사용자에게 email 을 발송하게 됩니다. 해당 URL은 별도로 인증 절차 없이 사용 할 수 있으므로, 파일 공유등 필요에 따라 활용 할 수 있습니다. 
+
+간단하게 구현하여 사용할 수 있도록, 멀티 Account를 고려하지 않고, 고정비용을 줄이기 위하여 데이터베이스도 사용하지 않습니다. 
+
 
 문서 가독성을 위하여 아래와 같이 3개의 파일을 별도로 생성하여 설명 합니다. 
 

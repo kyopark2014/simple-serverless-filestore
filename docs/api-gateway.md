@@ -6,6 +6,7 @@ Amazon API Gateway  는 REST 및 WebSocketAPI 등을 생성, 배포, 유지 관�
 
 
 1. AWS 콘솔  에서 Amazon API Gateway 서비스로 이동합니다.
+
    https://ap-northeast-2.console.aws.amazon.com/apigateway/main/apis?region=ap-northeast-2#
 
 ![image](https://user-images.githubusercontent.com/52392004/154442482-df72590b-6a5f-4e03-97a3-9ebee6885076.png)
@@ -28,56 +29,36 @@ Amazon API Gateway  는 REST 및 WebSocketAPI 등을 생성, 배포, 유지 관�
 
 4. 미디어 파일을 지원하기 위해 [API: api-filesharing] - [Settings] 에서 스크롤하여 [Binary Media Types]를 아래와 같이 설정합니다.
 
-
-
 ![image](https://user-images.githubusercontent.com/52392004/154482151-aafa3e55-5a43-4acc-92d9-e832e5a92398.png)
 
 5. API 생성이 완료되면 [Resources] 메뉴 상단의 [Actions] 버튼을 드롭 다운 한 뒤 [Create Resources] 옵션을 선택합니다. 
-
 
 
 <img width="695" alt="image" src="https://user-images.githubusercontent.com/52392004/153713845-60f15fc2-e173-4c63-b169-e015dfb881b4.png">
 
 6. [New Child Resource]에서 [Resource Name]을 입력하고 [Create Resource]를 선택합니다.
 
-
 <img width="972" alt="image" src="https://user-images.githubusercontent.com/52392004/153713987-29db83d2-7bb0-4217-bb0c-b01c92c4ff18.png">
-
-
-
 
 7. API 생성이 완료되면 [Resources] 메뉴 상단의 [Actions] 버튼을 드롭 다운 한 뒤 [Create Method] 옵션을 선택합니다. 
 
-
 <img width="418" alt="image" src="https://user-images.githubusercontent.com/52392004/153714119-75ec561e-7f07-483a-ac69-787e2a735d77.png">
 
-
 생성된 빈 드롭 다운 메뉴에서는 [POST] 을 선택한 뒤 체크 버튼을 클릭합니다.
-
-
 
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/52392004/153714163-32b2411e-0dc4-46b3-bbd6-e2bd5f80ecbe.png">
 
 
-
-
 8. / - POST - Setup 화면이 나타납니다. [Ingegration type] 은 Lambda Function 을 선택하고 [Lambda Region] 은 ap-northeast-2 를 선택합니다. [Lambda Function] 에는 미리 만든 lambda-filesharing-upload 를 선택합니다. [Save] 를 선택하여 API 메소드 생성을 완료합니다.
-
-
-
 
 ![image](https://user-images.githubusercontent.com/52392004/154482449-cfa972c8-b3b5-4044-a69c-4644667be462.png)
 
 
 9. Add Permission to Lambda Function 팝업이 나타나면 [OK] 를 선택합니다.
 
-
-
 ![image](https://user-images.githubusercontent.com/52392004/154482558-ac3a282c-83ca-430b-b641-01df2eb0bdb9.png)
 
 이후 아래와 같이 생성된 API 를 확인 할 수 있습니다.
-
-
 
 
 ![image](https://user-images.githubusercontent.com/52392004/154482679-65ad7f7a-7d48-4b56-9938-86c60b26d28b.png)
@@ -85,10 +66,12 @@ Amazon API Gateway  는 REST 및 WebSocketAPI 등을 생성, 배포, 유지 관�
 
 
 10. Binary contents 처리를 위해 [API-filesharing] - [Resources] - [upload/POST] - [Integration Request]를 선택하여 아래로 스크롤하여 [Mapping Templates]을 설정합니다.
-  1) “Request body passthrough”에서 “When there are no templates defined (recommended)”를 선택
-  2) “Content-Type”으로 “image/jpeg”을 추가
-  3) “image/jpeg”을 선택후 “Generate template”에서 “Method Request passthrough”를 선택후 저장
 
+  1) “Request body passthrough”에서 “When there are no templates defined (recommended)”를 선택
+
+  2) “Content-Type”으로 “image/jpeg”을 추가
+
+  3) “image/jpeg”을 선택후 “Generate template”에서 “Method Request passthrough”를 선택후 저장
 
 
 ![image](https://user-images.githubusercontent.com/52392004/153761172-a1889b0a-c7fe-489d-a58e-3d8319871e19.png)
@@ -109,6 +92,7 @@ Amazon API Gateway  는 REST 및 WebSocketAPI 등을 생성, 배포, 유지 관�
 
 
 13. 아래와 같이 [Stages] - [dev]를 선택한후, invoke URL을 확인합니다.
+
 https://xeps4yi0g0.execute-api.ap-northeast-2.amazonaws.com/dev
 
 

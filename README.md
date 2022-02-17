@@ -14,15 +14,15 @@
 
 문서 가독성을 위하여 아래와 같이 3개의 파일을 별도로 생성하여 설명 합니다. 
 
-## Lambda-upload 설치
+## Lambda-upload 설정
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/lambda-upload.md
 
-## S3 설치 
+## S3 설정
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/S3.md
 
-## API Gateway 설치 
+## API Gateway 설정
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/api-gateway.md
 

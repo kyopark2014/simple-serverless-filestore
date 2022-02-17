@@ -55,6 +55,7 @@ Body에 “binary” 형태로 이미지 파일을 전송합니다.
 
 <img width="1007" alt="image" src="https://user-images.githubusercontent.com/52392004/154497991-5c9917f8-44ac-4370-bd79-7804daa64094.png">
 
+Postman을 이용해 이미지 파일을 업로드시에 아래와 같이, 성공의 의미로 버켓이름, Key(파일이름), 컨텐츠 타입을 전달합니다. 
 
 <img width="1013" alt="image" src="https://user-images.githubusercontent.com/52392004/154499778-f1ba0c5a-0d8f-4dea-90dd-a8881e8f236f.png">
 

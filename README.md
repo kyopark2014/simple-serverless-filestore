@@ -59,4 +59,12 @@ Postman을 이용해 이미지 파일을 업로드시에 아래와 같이, 성�
 
 <img width="1013" alt="image" src="https://user-images.githubusercontent.com/52392004/154499778-f1ba0c5a-0d8f-4dea-90dd-a8881e8f236f.png">
 
+### 본 과제에 필요한 Lambda upload와 notification 에 대한 코드 및 설명은 아래를 참조 바랍니다. 
 
+#### Lambda-upload
+
+https://github.com/kyopark2014/simple-serverless-filesharing-upload
+
+#### Lambda-notification
+
+https://github.com/kyopark2014/simple-serverless-filesharing-nodification

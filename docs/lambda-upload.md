@@ -20,7 +20,7 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 4. 이때 IAM의 [Roles]로 이동하는데, Policy를 수정하기 위하여 아래와 같이 [Permissions policies]에 있는 “AWSLambdaBasicExecutionRole-c8b4ab9a-01a5-4ebf-9918-032f1f3c1f5a”을 선택합니다.
 
-![image](https://user-images.githubusercontent.com/52392004/154480065-58375c1d-bba7-4080-a4ca-09430d7036bf.png)
+<img width="1155" alt="image" src="https://user-images.githubusercontent.com/52392004/154511646-da5fc924-0fba-4708-9359-422dc7dbc518.png">
 
 
 5. [IAM]의 [Policies]로 이동하면, [Permissions]에서 [Edit policy]를 선택합니다. 

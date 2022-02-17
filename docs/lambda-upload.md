@@ -25,8 +25,7 @@ https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#
 
 5. [IAM]의 [Policies]로 이동하면, [Permissions]에서 [Edit policy]를 선택합니다. 
 
-<img width="1155" alt="image" src="https://user-images.githubusercontent.com/52392004/154446762-e3a1ff51-d807-441c-9e9d-7d84af12576e.png">
-
+<img width="1163" alt="image" src="https://user-images.githubusercontent.com/52392004/154512067-72e9a2d8-197b-4009-91bf-6f222f8c161a.png">
 
 6. [JSON]에서 아래의 퍼미션을 추가합니다. Permission은 향후 필요에 따라 원하는 범위로 조정할 수 있습니다.
 ```c

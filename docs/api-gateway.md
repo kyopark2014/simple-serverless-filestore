@@ -1,4 +1,6 @@
-# 파일 공유 서비스 - API Gateway 설정
+# Simple File Sharing 
+
+## API Gateway 설정
 
 Amazon API Gateway  는 REST 및 WebSocketAPI 등을 생성, 배포, 유지 관리 할 수 있는 AWS 서비스로 모든 규모의 API 를 개발자가 손쉽게 구성할 수 있도록 해줍니다.
 

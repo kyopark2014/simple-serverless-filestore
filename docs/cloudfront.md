@@ -27,7 +27,7 @@ https://console.aws.amazon.com/cloudfront/v3/home?region=ap-northeast-2#/distrib
 
 ![image](https://user-images.githubusercontent.com/52392004/154586148-4d39628a-221a-45fc-aa79-d199f57ccd1d.png)
 
-4. 동작을 위해 아래와 같이 S3 bucket에 “sample1.jpeg”라는 파일을 업로드 합니다. 
+4. 동작을 확인을 위해 아래와 같이 S3 bucket에 “sample1.jpeg”라는 파일을 업로드 합니다. 
 
 
 

@@ -41,7 +41,7 @@ URL 예제: https://d1jriun510dhsq.cloudfront.net/sample1.jpeg
 
 ### Troubleshooting
 
-상기 url로 파일이 로드되지 않는 경우에 [CloudFront] - [Security] Origin access Identities]에서 ID를 확인합니다. 
+상기 url로 파일이 로드되지 않는 경우에 [CloudFront] - [Security]에서 아래와 같이 Origin access Identities]에서 ID를 확인합니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/154588098-c68af918-4a60-48d3-bca4-2062d2d34796.png)
 

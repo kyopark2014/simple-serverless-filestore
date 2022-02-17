@@ -20,8 +20,7 @@ https://console.aws.amazon.com/cloudfront/v3/home?region=ap-northeast-2#/distrib
 
 2. 아래로 스크롤하여 [Viewer]에서 보안을 위하여 “HTTP and HTTPS” 에서 “Redirect HTTP to HTTP”을 선택합니다. 
 
-
-![image](https://user-images.githubusercontent.com/52392004/154585894-9d2bbca1-a987-4ef4-a9b6-ff8bb8838c72.png)
+![image](https://user-images.githubusercontent.com/52392004/154588875-f1092ef8-00ea-4f8f-876e-49f13f2d5a76.png)
 
 3. 나머지 설정은 default로 유지하고 [Create distribution]을 선택하여 Distribution을 등록합니다. 이때 생성을 위해 수분에서 수십분 시간이 소요되는데 아래와 같이 Status에서 “Enabled" 가 되어야 사용할 수 있습니다. 또한, 아래와 같이 접속할 도메인의 주소를 “d1jriun510dhsq.cloudfront.net” 와 같이 확인 할 수 있습니다. 
 

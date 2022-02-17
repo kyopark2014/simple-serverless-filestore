@@ -30,7 +30,7 @@ https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/api-
 
 ## 테스트 방법
 
-### curl 을 활용한 바이너리 전송
+### curl 을 활용한 바이너리 업로드 테스트
 
 [curl 명령어의 예]
 
@@ -43,7 +43,7 @@ curl 실행 결과는 아래와 같습니다.
 <img width="1213" alt="image" src="https://user-images.githubusercontent.com/52392004/154499486-c0c4f841-5636-4eaf-b91f-9f31ccd44ba1.png">
 
 
-### Postman을 이용한 이미지 전송
+### Postman을 이용한 이미지 업로드 테스트
 
 Content-Type 및 Content-Disposition을 설정합니다. 
 

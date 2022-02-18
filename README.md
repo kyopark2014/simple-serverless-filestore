@@ -2,7 +2,7 @@
 
 본 문서에서는 Serverless architecture 기반의 파일공유 서비스를 소개하고자 합니다. 전체적인 Serverless Architecture는 아래와 같습니다.
 
-<img width="764" alt="image" src="https://user-images.githubusercontent.com/52392004/154503381-d893c830-346c-4968-bb73-73ab7cf48ff4.png">
+<img width="894" alt="image" src="https://user-images.githubusercontent.com/52392004/154693997-e302b36f-8b84-4447-bcc6-907842cc5acd.png">
 
 주요 사용 시나리오는 아래와 같습니다. 
 

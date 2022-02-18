@@ -2,7 +2,7 @@
 
 ## API Gateway 설정
 
-Amazon API Gateway  는 REST 및 WebSocketAPI 등을 생성, 배포, 유지 관리 할 수 있는 AWS 서비스로 모든 규모의 API 를 개발자가 손쉽게 구성할 수 있도록 해줍니다.
+Amazon API Gateway는 REST full의 Endpoint로 활용할 수 있으며, Lambda를 연결할때 유용합니다.
 
 
 1. AWS 콘솔  에서 Amazon API Gateway 서비스로 이동합니다.

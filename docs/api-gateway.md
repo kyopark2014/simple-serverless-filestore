@@ -1,4 +1,4 @@
-# Simple File Sharing 
+# Simple File Store
 
 ## API Gateway 설정
 

@@ -87,8 +87,3 @@ https://github.com/kyopark2014/simple-serverless-filesharing-upload
 https://github.com/kyopark2014/simple-serverless-filesharing-nodification
 
 
-#### Source Code
-
-https://github.com/kyopark2014/simple-serverless-filesharing-upload
-
-https://github.com/kyopark2014/simple-serverless-filesharing-notification

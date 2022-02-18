@@ -40,7 +40,7 @@ https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/clou
 
 ## API Gateway 로그 설정 
 
-https://github.com/kyopark2014/serverless-filesharing/blob/main/docs/api-gateway-log.md
+https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/api-gateway-log.md
 
 
 상기와 같이 Lambda, S3, API Gateway를 모두 적절히 설치한후 아래와 같이 테스트를 할 수 있습니다. 

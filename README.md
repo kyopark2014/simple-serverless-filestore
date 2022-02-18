@@ -87,3 +87,9 @@ https://github.com/kyopark2014/simple-serverless-filesharing-upload
 https://github.com/kyopark2014/simple-serverless-filesharing-nodification
 
 
+
+## 실행결과 
+
+파일이 업로드가 되면 S3에 저장하고, 다운로드가 가능하도록 CloudFront의 주소를 SNS를 통해 사용자에게 전달하게 됩니다.  상기 테스트 방법처럼 Curl이나 Post맨으로 실행시 아래와 같이 업로드된 CloudFront URL 이 전달됩니다.
+
+![image](https://user-images.githubusercontent.com/52392004/154707671-b74f296d-caea-43c8-882a-4f446302d65f.png)

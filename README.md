@@ -25,6 +25,10 @@ https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/lamb
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/S3.md
 
+## Lambda-notification 설정 
+
+https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/lambda-notification.md
+
 ## API Gateway 설정
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/api-gateway.md
@@ -32,6 +36,11 @@ https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/api-
 ## CloudFront 설정 
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/cloudfront.md
+
+
+## API Gateway 로그 설정 
+
+https://github.com/kyopark2014/serverless-filesharing/blob/main/docs/api-gateway-log.md
 
 
 상기와 같이 Lambda, S3, API Gateway를 모두 적절히 설치한후 아래와 같이 테스트를 할 수 있습니다. 
@@ -76,3 +85,10 @@ https://github.com/kyopark2014/simple-serverless-filesharing-upload
 #### Lambda-notification
 
 https://github.com/kyopark2014/simple-serverless-filesharing-nodification
+
+
+#### Source Code
+
+https://github.com/kyopark2014/simple-serverless-filesharing-upload
+
+https://github.com/kyopark2014/simple-serverless-filesharing-notification

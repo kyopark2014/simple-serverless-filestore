@@ -7,7 +7,7 @@
 주요 사용 시나리오는 아래와 같습니다. 
 
 1) 사용자가 업로드한 컨텐츠는 RESTful API를 통해 API Gateway를 통해 전송되는데 이때 보안을 위해 https를 이용해 전달됩니다. 이후, Lambda에 전달된 event에서 파일을 추출해서 S3에 저장하게 됩니다. 
-2) 두번째 Lambda는 S3에 Put event notification을 받아서 trigger 되는데, CloudFront와 S3가 연결하는 작업을 하게 되며, 이때 생성된 파일 다운로드 URL을 SNS에 전달 합니다. 
+2) 두번째 Lambda는 S3의 Put event notification을 받아서 trigger 되는데, CloudFront와 S3가 연결하는 작업을 하게 되며, 이때 생성된 파일 다운로드 URL을 SNS에 전달 합니다. 
 3) SNS는 Lambda로 부터 전달된 URL로 사용자에게 email 을 발송하게 됩니다. 해당 URL은 별도로 인증 절차 없이 사용 할 수 있으므로, 파일 공유등 필요에 따라 활용 할 수 있습니다. 
 
 간단하게 구현하여 사용할 수 있도록, 멀티 Account를 고려하지 않고, 고정비용을 줄이기 위하여 데이터베이스도 사용하지 않습니다. 

@@ -14,9 +14,8 @@ https://console.aws.amazon.com/cloudfront/v3/home?region=ap-northeast-2#/distrib
 
 2. [Create distribution]에서 [Origin domain]을 선택하면 기존에 생성한 S3의 리스트가 보여집니다. 기 생성한 simple-file-store를 선택합니다. 또한, 보안을 위해 아래와 같이 [S3 bucket access]를 “Don't use OAI (bucket must allow public access)”에서 “Yes use OAI (bucket can restrict access to only CloudFront)”로 변경합니다. 
 
+![image](https://user-images.githubusercontent.com/52392004/154782637-c01e2e45-c15f-4f18-a291-7a2ce400e0d5.png)
 
-
-![image](https://user-images.githubusercontent.com/52392004/154585646-ec2031c8-b9ee-4c62-b00f-8c7d3d72b4a7.png)
 
 2. 아래로 스크롤하여 [Viewer]에서 보안을 위하여 “HTTP and HTTPS” 에서 “Redirect HTTP to HTTP”을 선택합니다. 
 

@@ -17,23 +17,23 @@
 
 문서 가독성을 위하여 아래와 같이 기능별 문서 파일에서 상세한 구현과 설정방법에 대해 설명 합니다. 
 
-## Lambda-upload 설정
+## Lambda-upload 구현
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/lambda-upload.md
 
-## S3 설정
+## S3 구현
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/S3.md
 
-## Lambda-notification 설정 
+## Lambda-notification 구현
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/lambda-notification.md
 
-## API Gateway 설정
+## API Gateway 구현 
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/api-gateway.md
 
-## CloudFront 설정 
+## CloudFront 구현
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/cloudfront.md
 

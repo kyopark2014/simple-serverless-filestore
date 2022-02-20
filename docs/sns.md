@@ -1,4 +1,4 @@
-Amazon SNS 구성
+# Amazon SNS 구성
 
 AWS Lambda 가 이벤트를 처리한 결과를 email 로 전송할 때 사용할 Amazon SNS 를 구성하고자 합니다.
 

@@ -97,3 +97,15 @@ https://github.com/kyopark2014/simple-serverless-filesharing-nodification
 파일이 업로드가 되면 S3에 저장하고, 다운로드가 가능하도록 CloudFront의 주소를 SNS를 통해 사용자에게 이메일로 전달하게 됩니다. 아래와 같이 SNS에 등록한 이메일로 컨텐츠 URL이 전달되면, 자신의 컨텐츠 저장소로 쓰거나 필요시 공유용 저장소로 사용할 수 있습니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/154707671-b74f296d-caea-43c8-882a-4f446302d65f.png)
+
+
+
+## Related Lambdas
+### Save image into S3 and push to SQS
+https://github.com/kyopark2014/simple-serverless-voicebookcreator-for-upload
+
+### AWS Rekognition
+https://github.com/kyopark2014/simple-serverless-voicebookcreator-for-rekognition
+
+### AWS Poly
+https://github.com/kyopark2014/simple-serverless-voicebookcreator-for-polly

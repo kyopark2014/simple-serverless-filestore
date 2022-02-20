@@ -99,13 +99,3 @@ https://github.com/kyopark2014/simple-serverless-filesharing-nodification
 ![image](https://user-images.githubusercontent.com/52392004/154707671-b74f296d-caea-43c8-882a-4f446302d65f.png)
 
 
-
-## Related Lambdas
-### Save image into S3 and push to SQS
-https://github.com/kyopark2014/simple-serverless-voicebookcreator-for-upload
-
-### AWS Rekognition
-https://github.com/kyopark2014/simple-serverless-voicebookcreator-for-rekognition
-
-### AWS Poly
-https://github.com/kyopark2014/simple-serverless-voicebookcreator-for-polly

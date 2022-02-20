@@ -33,6 +33,10 @@ https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/lamb
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/api-gateway.md
 
+## SNS 구현 
+
+https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/sns.md
+
 ## CloudFront 구현
 
 https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/cloudfront.md

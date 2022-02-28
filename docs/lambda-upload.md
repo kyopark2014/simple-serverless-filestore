@@ -1,6 +1,6 @@
 # Simple File Sharing
 
-## Lambda Upload 설정 
+## Lambda Upload 
 
 1. AWS 콘솔  에서 AWS Lambda 서비스로 이동합니다.
 

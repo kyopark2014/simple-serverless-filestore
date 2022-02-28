@@ -88,7 +88,7 @@ https://github.com/kyopark2014/simple-serverless-filesharing-upload
 
 #### Lambda-notification
 
-https://github.com/kyopark2014/simple-serverless-filesharing-nodification
+https://github.com/kyopark2014/simple-serverless-filesharing-notification
 
 
 

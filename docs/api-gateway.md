@@ -99,8 +99,6 @@ https://xeps4yi0g0.execute-api.ap-northeast-2.amazonaws.com/dev
 <img width="1404" alt="image" src="https://user-images.githubusercontent.com/52392004/153714415-4d6d19ef-f0e6-4c78-85ea-cb6620b19f18.png">
 
 
-Invoke URL: https://viwb8crpob.execute-api.ap-northeast-2.amazonaws.com/dev
-
 
 
 ![image](https://user-images.githubusercontent.com/52392004/154483478-4be2072a-0ffb-4f95-a5cc-a85a455dd8a0.png)

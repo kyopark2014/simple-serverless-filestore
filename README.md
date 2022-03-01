@@ -82,11 +82,11 @@ Postman을 이용해 이미지 파일을 업로드시에 아래와 같이, 성�
 
 ### 본 과제에 필요한 Lambda upload와 notification 에 대한 코드 및 설명은 아래를 참조 바랍니다. 
 
-#### [Github: Lambda-upload](https://github.com/kyopark2014/simple-serverless-filesharing-upload)
+#### [[Github: Lambda-upload]](https://github.com/kyopark2014/simple-serverless-filesharing-upload)
 
 https://github.com/kyopark2014/simple-serverless-filesharing-upload
 
-#### [Github: Lambda-notification](https://github.com/kyopark2014/simple-serverless-filesharing-notification)
+#### [[Github: Lambda-notification]](https://github.com/kyopark2014/simple-serverless-filesharing-notification)
 
 https://github.com/kyopark2014/simple-serverless-filesharing-notification
 

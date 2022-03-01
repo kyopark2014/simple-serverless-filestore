@@ -19,32 +19,32 @@
 
 ## Lambda-upload 구현
 
-https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/lambda-upload.md
+https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/lambda-upload.md
 
 ## S3 구현
 
-https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/S3.md
+https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/S3.md
 
 ## Lambda-notification 구현
 
-https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/lambda-notification.md
+https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/lambda-notification.md
 
 ## API Gateway 구현 
 
-https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/api-gateway.md
+https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/api-gateway.md
 
 ## SNS 구현 
 
-https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/sns.md
+https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/sns.md
 
 ## CloudFront 구현
 
-https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/cloudfront.md
+https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/cloudfront.md
 
 
 ## API Gateway 로그 설정 
 
-https://github.com/kyopark2014/simple-serverless-filesharing/blob/main/docs/api-gateway-log.md
+https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/api-gateway-log.md
 
 
 상기와 같이 Lambda, S3, API Gateway를 모두 적절히 설치한후 아래와 같이 테스트를 할 수 있습니다. 

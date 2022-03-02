@@ -84,11 +84,11 @@ Postman을 이용해 이미지 파일을 업로드시에 아래와 같이, 성�
 
 #### [[Github: Lambda-upload]](https://github.com/kyopark2014/simple-serverless-filestore-for-upload)
 
-https://github.com/kyopark2014/simple-serverless-filestore-upload
+https://github.com/kyopark2014/simple-serverless-filestore-for-upload
 
 #### [[Github: Lambda-notification]](https://github.com/kyopark2014/simple-serverless-filestore-for-notification)
 
-https://github.com/kyopark2014/simple-serverless-filestore-notification
+https://github.com/kyopark2014/simple-serverless-filestore-for-notification
 
 
 

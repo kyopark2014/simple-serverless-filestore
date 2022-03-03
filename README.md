@@ -1,4 +1,4 @@
-# Simple Serverless File Store
+# Simple Serverless File Store: AWS 서버리스로 간단한 파일 서버 구현하기
 
 본 문서에서는 Serverless architecture 기반의 파일공유 서비스를 소개하고자 합니다. 전체적인 Serverless Architecture는 아래와 같습니다.
 

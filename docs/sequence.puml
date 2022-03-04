@@ -1,0 +1,55 @@
+@startuml Sequence Diagram - Sprites
+
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/master/dist
+!includeurl AWSPuml/AWSCommon.puml
+!includeurl AWSPuml/Compute/all.puml
+!includeurl AWSPuml/Mobile/APIGateway.puml
+!includeurl AWSPuml/General/InternetGateway.puml
+!includeurl AWSPuml/Database/DynamoDB.puml
+!includeurl AWSPuml/Database/ElastiCache.puml
+!includeurl AWSPuml/Storage/SimpleStorageServiceS3.puml
+!includeurl AWSPuml/NetworkingAndContentDelivery/CloudFront.puml
+!includeurl AWSPuml/ApplicationIntegration/SNS.puml
+
+'Comment out to use default PlantUML sequence formatting
+skinparam participant {
+    BackgroundColor AWS_BG_COLOR
+    BorderColor AWS_BORDER_COLOR
+}
+'Hide the bottom boxes
+hide footbox
+
+actor User as user
+participant "<color:#red><$APIGateway>\nAmazon API Gateway" as api
+participant "<color:#D86613><$Lambda></color>\nAmazon Lambda\nupload" as lambdaUpload
+participant "<color:#green><$SimpleStorageServiceS3></color>\nAmazon S3" as s3
+participant "<color:#magenta><$CloudFront></color>\nAmazon CloudFront" as cdn
+participant "<color:#D86613><$Lambda></color>\nAmazon Lambda\nnotification" as lambdaNotification
+participant "<color:#red><$SNS></color>\nAmazon SNS" as sns
+participant "Email Server\n<color:#232F3E><$InternetGateway></color>" as pop3
+
+user -> api: Upload File\nPOST /upload
+
+api -> lambdaUpload: Invokes lambda
+
+lambdaUpload -> s3 : putObject
+s3 --> lambdaUpload : 
+
+lambdaUpload -> api : 200OK
+
+api -> user: 200OK
+
+s3 -> s3 : PUT event
+
+s3 -> lambdaNotification : Event notification
+
+lambdaNotification -> sns : Publish download url link
+
+sns -> pop3 : request Email 
+
+pop3 -> user : Email notification\n(download url link)
+
+user -> cdn : request to download 
+
+cdn -> user : 200OK with File
+@enduml

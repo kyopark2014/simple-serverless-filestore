@@ -14,6 +14,9 @@
 
 간단하게 구현하여 사용할 수 있도록, 멀티 Account를 고려하지 않고, 고정비용을 줄이기 위하여 데이터베이스도 사용하지 않습니다. 
 
+상세한 동작구성은 아래 Sequence Diagram을 참고 부탁드립니다.
+
+![image](https://user-images.githubusercontent.com/52392004/156720875-3cadf6f4-53e4-4b5a-b355-6f04d1c9fac0.png)
 
 문서 가독성을 위하여 아래와 같이 기능별 문서 파일에서 상세한 구현과 설정방법에 대해 설명 합니다. 
 

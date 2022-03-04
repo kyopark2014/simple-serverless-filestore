@@ -1,6 +1,8 @@
 # Simple Serverless File Store: AWS 서버리스로 간단한 파일 서버 구현하기
 
-본 문서에서는 Serverless architecture 기반의 파일공유 서비스를 소개하고자 합니다. 전체적인 Serverless Architecture는 아래와 같습니다.
+본 문서에서는 Serverless architecture 기반의 파일공유 서비스를 소개하고자 합니다. 서버리스 파일공유 서비스는 파일을 업로드 또는 다운로드 할때만 인프라 비용이 발생하며 경제적이며, 파일이 저장되는 스토리지인 S3는 1GB당 $0.023/월로 매우 경쟁력이 있는 가격 정책을 가지고 있을뿐 아니라, Lifecycle Rule을 정의하면 자동삭제하도록 설정이 가능합니다. 무엇보다 업로드 가능한 최대 파일 크기가 REST API를 사용할 경우에 5GB이어서, 일반적인 파일 공유 목적으로 유용하게 사용 할 수 있습니다.  
+
+전체적인 Serverless Architecture는 아래와 같습니다.
 
 <img width="894" alt="image" src="https://user-images.githubusercontent.com/52392004/154693997-e302b36f-8b84-4447-bcc6-907842cc5acd.png">
 

@@ -41,6 +41,8 @@ https://ap-northeast-2.console.aws.amazon.com/sns/v3/home?region=ap-northeast-2#
 ![noname](https://user-images.githubusercontent.com/52392004/156904898-8032b173-2b92-4120-a888-eb28878e723a.png)
 
 3) 팝업이 나오면, [Delete]를 선택하여 삭제합니다.
+
+
 ![image](https://user-images.githubusercontent.com/52392004/156904917-0ea86b35-f765-4144-a0ab-a29edbf76101.png)
 
 
@@ -88,6 +90,8 @@ https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-2#
 ![image](https://user-images.githubusercontent.com/52392004/156905230-f019428d-b630-4f2e-a1b9-1a47410f401f.png)
 
 3. [Amazon S3] - [Buckets]에서 [s3-simple-filestore]를 선택후 [Delete] 합니다. 
+
+
 ![image](https://user-images.githubusercontent.com/52392004/156905152-c2382768-3171-415d-a4c0-50d8a7cb72ac.png)
 
 아래와 같이 [Delete bucket]을 선택하여 삭제합니다. 

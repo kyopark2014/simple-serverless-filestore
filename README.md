@@ -101,3 +101,9 @@ Postman을 이용해 이미지 파일을 업로드시에 아래와 같이, 성�
 ![image](https://user-images.githubusercontent.com/52392004/154707671-b74f296d-caea-43c8-882a-4f446302d65f.png)
 
 
+## 서버 삭제
+
+해당 서버의 사용이 끝나서 삭제가 필요할때 아래 가이드를 참고합니다. 
+
+https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/clean-up.md
+

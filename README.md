@@ -22,27 +22,27 @@
 
 문서 가독성을 위하여 아래와 같이 기능별 문서 파일에서 상세한 구현과 설정방법에 대해 설명 합니다. 
 
-## Lambda-upload 구현
+## 1. Lambda-upload 구현
 
 https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/lambda-upload.md
 
-## S3 구현
+## 2. S3 구현
 
 https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/S3.md
 
-## Lambda-notification 구현
+## 3. Lambda-notification 구현
 
 https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/lambda-notification.md
 
-## API Gateway 구현 
+## 4. API Gateway 구현 
 
 https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/api-gateway.md
 
-## SNS 구현 
+## 5. SNS 구현 
 
 https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/sns.md
 
-## CloudFront 구현
+## 6. CloudFront 구현
 
 https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/cloudfront.md
 

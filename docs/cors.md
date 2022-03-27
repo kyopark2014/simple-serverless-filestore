@@ -2,7 +2,8 @@
 
 1) javascript를 이용해 API Gateway를 통해 파일을 전송시 CORS를 설정하여야 합니다. [API Gateway] - [upload - Post]에서 [Actions]을 선택하여 [Enable CORS]를 선택합니다. 
 
-![noname](https://user-images.githubusercontent.com/52392004/160275507-2264c515-28f4-43c0-8efd-40da594a3514.png)
+![noname](https://user-images.githubusercontent.com/52392004/160276329-0becf4f4-e45b-4dae-822d-131df1c6175b.png)
+
 
 2) [Enable CORS] 화면 선택시 아래와 같이 
 

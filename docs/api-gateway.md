@@ -127,6 +127,11 @@ javascript를 이용해 API Gateway를 통해 파일을 전송시 CORS를 설정
 
 ![image](https://user-images.githubusercontent.com/52392004/160275650-f78342c8-9185-4968-b7d7-43793ac74905.png)
 
+[Integration Request]를 선택하여 진입후 [Mapping Templates]를 선택하여 "When there are no template defined"를 선택후, "Content-type"으로 "image/jpeg"를 추가하고, "Generate template"에는 "{"statusCode":200}을 입력하고 아래로 스크롤하여 [Save]를 선택합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/160275920-86f5618d-e2ee-4929-a41a-5275b7422019.png)
+
+마찬가지 방법으로 "application/octet-stream", "image/jpg", "image/png"등을 추가합니다.
 
 
 ## Reference

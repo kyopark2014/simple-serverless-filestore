@@ -107,3 +107,8 @@ Postman을 이용해 이미지 파일을 업로드시에 아래와 같이, 성�
 
 https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/clean-up.md
 
+
+
+## Web Client 구현 
+
+Web에서 업로드 테스트를 위해 [Web client](https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/webclient.md)을 구현하였습니다. 이때 [CORS 설정](https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/cors.md)이 필요합니다.

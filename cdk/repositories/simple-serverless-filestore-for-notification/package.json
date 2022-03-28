@@ -1,0 +1,24 @@
+{
+  "name": "simple-serverless-filesharing-notification",
+  "version": "1.0.0",
+  "description": "Lambda code for the interface betweeen S3 and SNS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyopark2014/simple-serverless-filesharing-notification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyopark2014/simple-serverless-filesharing-notification/issues"
+  },
+  "homepage": "https://github.com/kyopark2014/simple-serverless-filesharing-notification#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1076.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {}
+}

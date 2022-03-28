@@ -1,0 +1,23 @@
+{
+  "name": "simple-serverless-filesharing-upload",
+  "version": "1.0.0",
+  "description": "Lambda code for the interface betweeen API Gateway and S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyopark2014/simple-serverless-filesharing-upload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyopark2014/simple-serverless-filesharing-upload/issues"
+  },
+  "homepage": "https://github.com/kyopark2014/simple-serverless-filesharing-upload#readme",
+  "dependencies": {
+    "content-disposition": "^0.5.4",
+    "uuid": "^8.3.2"
+  }
+}

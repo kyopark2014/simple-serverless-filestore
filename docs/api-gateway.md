@@ -108,6 +108,10 @@ https://xeps4yi0g0.execute-api.ap-northeast-2.amazonaws.com/dev
 ![image](https://user-images.githubusercontent.com/52392004/154484341-58bd2475-23e8-4edf-98c1-bad3bcb1c002.png)
 
 
+15. Browser에서 upload api 지원시는 CORS를 설정하여야합니다. 
+
+[CORS 설정](https://github.com/kyopark2014/simple-serverless-filestore/blob/main/docs/cors.md)
+
 
 
 ## Reference

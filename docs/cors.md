@@ -28,4 +28,17 @@
 ![noname](https://user-images.githubusercontent.com/52392004/160276075-463b3183-e6f2-4d43-a346-984c0558b1f8.png)
 
 
+## TO-DO: CORS 회피 문제점
+
+1) upload시 50KB 제한되는 문제점이 있습니다. 이것은 아래의 Binary Media Type 설정과 연결된 문제로 보입니다. 
+
+   Browser에서 CORS off시에는 정상 동작합니다. 
+
+```c
+$ open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
+```
+
+2) 아래와 같이 Binary Media Type 설정이 필요한데, 아래처럼 설정시 CORS 회피에 실패합니다. (OPTIONS/500) 
+
+![image](https://user-images.githubusercontent.com/52392004/160368712-52d80846-a4ca-43db-bbf6-9001afb6e2ca.png)
 

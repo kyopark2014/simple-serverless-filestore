@@ -59,7 +59,7 @@ export class CdkStack extends Stack {
     // Lambda - Upload
     const lambdaUpload = new lambda.Function(this, "LambdaUpload", {
       runtime: lambda.Runtime.NODEJS_14_X, 
-      code: lambda.Code.fromAsset("repositories/serverless-storytime-for-upload"), 
+      code: lambda.Code.fromAsset("../serverless-storytime-for-upload"), 
       handler: "index.handler", 
       timeout: cdk.Duration.seconds(10),
       environment: {
@@ -71,7 +71,7 @@ export class CdkStack extends Stack {
     // Lambda - Notification
     const lambdaNotification = new lambda.Function(this, "LambdaNotification", {
       runtime: lambda.Runtime.NODEJS_14_X, 
-      code: lambda.Code.fromAsset("repositories/serverless-storytime-for-notification"), 
+      code: lambda.Code.fromAsset("../serverless-storytime-for-notification"), 
       handler: "index.handler", 
       timeout: cdk.Duration.seconds(10),
       environment: {

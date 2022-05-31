@@ -1,11 +1,5 @@
 # simple-serverless-filestore-for-upload
 
-본 저장소(Repository)를 통해 Simple File Sharing 서비스(https://github.com/kyopark2014/simple-serverless-fileserver )의 Upload Lambda에 관련 코드를 관리하고자 합니다.
-
-전체적인 Serverless Architecture는 아래와 같습니다. 
-
-<img width="894" alt="image" src="https://user-images.githubusercontent.com/52392004/154693997-e302b36f-8b84-4447-bcc6-907842cc5acd.png">
-
 사용자가 업로드한 컨텐츠는 RESTful API를 통해 API Gateway를 통해 전송되는데 이때 보안을 위해 https를 이용해 전달됩니다. 이후, Lambda를 통해 event에서 파일을 추출해서 S3에 저장하게 됩니다. 본 Repository는 이와같은 Upload를 위한 기능을 제공하고 있습니다. 
 
 

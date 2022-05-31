@@ -1,11 +1,4 @@
 # simple-serverless-filestore-for-notification
-Lambda code for the interface betweeen S3 and SNS
-
-본 저장소(Repository)를 통해 Simple File Store(https://github.com/kyopark2014/simple-serverless-filestore )의 Notification Lambda에 관련 코드를 관리하고자 합니다.
-
-전체적인 Serverless Architecture는 아래와 같습니다. 
-
-<img width="894" alt="image" src="https://user-images.githubusercontent.com/52392004/154693997-e302b36f-8b84-4447-bcc6-907842cc5acd.png">
 
 사용자 컨텐츠가 S3에 업로드 되면, Notification Lambda는 CloudFront URL을 생성하여, 메일내용과 함께 SNS를 통해 전달한다. 
 
